@@ -38,7 +38,7 @@ function displayMovies(movies) {
       const movieLink = `https://www.imdb.com/title/${movie.imdbID}`;
       const movieImage = movie.Poster ? movie.Poster : "https://via.placeholder.com/300x450?text=No+Image";
       const movieTitle = movie.Title ? movie.Title : "Título não disponível";
-      const movieYear = movie.Year ? `(${movie.Year})` : ""; // Ano opcional
+      const movieYear = movie.Year ? `(${movie.Year})` : "";
   
       return `
         <div class="col-md-4 col-sm-6">
